@@ -1,0 +1,25 @@
+{
+  "name": "api-banco-digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franSborges/API-Banco-Digital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franSborges/API-Banco-Digital/issues"
+  },
+  "homepage": "https://github.com/franSborges/API-Banco-Digital#readme",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
