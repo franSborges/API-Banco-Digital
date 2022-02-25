@@ -1,6 +1,6 @@
 # API Banco Digital
 
-RESTful API para um Banco Digital, desenvolvida em Node.js com Express.js e JavaScript, com
+RESTful API para um Banco Digital, desenvolvida em Node.js com JavaScript é Express.js, com
 as seguintes funcionalidades abaixo.
 ## Features
 
