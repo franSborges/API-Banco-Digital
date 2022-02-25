@@ -23,5 +23,5 @@ as seguintes funcionalidades abaixo.
 
 
 ## 🛠 Skills
-Node.js, API, Javascript
+Node.js, API, JavaScript
 
