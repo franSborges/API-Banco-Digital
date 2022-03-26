@@ -4,15 +4,63 @@ RESTful API para um Banco Digital, desenvolvida em Node.js com JavaScript é Exp
 as seguintes funcionalidades abaixo.
 ## Features
 
-- Criar conta bancária
-- Listar contas bancárias
-- Atualizar os dados do usuário da conta bancária
-- Excluir uma conta bancária
-- Depósitar em uma conta bancária
-- Sacar de uma conta bancária
-- Transferir valores entre contas bancárias
-- Consultar saldo da conta bancária
-- Emitir extrato bancário
+## Consultas e criação de contas bancárias
+
+#### Criação de conta bancária
+
+```http
+  POST /contas
+```
+Esse endpoint, é responsável pela criação de conta bancária
+
+
+#### Listagem de contas bancárias
+
+```http
+  GET /contas
+```
+Esse endpoint, é responsável pela listagem de contas bancárias
+
+
+#### Atualizar dados de conta bancária
+
+```http 
+  PUT /contas/:numeroConta/usuario
+```
+Esse endpoint, é para atualizar dados de uma conta bancária
+
+
+#### Excluir conta bancária
+
+```http 
+  DELETE /contas/:numeroConta/usuario
+```
+Esse endpoint, é responsável pela exclusão de conta bancária
+
+## Transações bancárias
+
+
+#### deposito de dinheiro
+```http 
+  POST /transacoes/depositar
+```
+Esse endpoint, é responsável pelo deposito de "dinheiro" em conta bancária
+
+
+#### Saque de dinheiro 
+```http 
+  POST /transacoes/sacar
+```
+Esse endpoint, é responsável pelo saque de "dinheiro" de  uma conta bancária
+
+
+#### transferências de dinheiro 
+```http 
+  POST /transacoes/transferir
+```
+Esse endpoint, é responsável pelas transferências de "dinheiro" de uma conta bancária para outra
+
+
 
 
 
